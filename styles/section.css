@@ -1,3 +1,9 @@
+section header {
+  border-top: 1px solid var(--stroke-color);
+  padding-block: 12px 24px;
+  font: var(--text-span);
+}
+
 #featured {
   img {
     height: 100%;
@@ -37,4 +43,31 @@
       margin-top: 8px;
     }
   }
+}
+
+#weekly {
+  header a {
+  justify-self: end;
+  align-items: center;
+  gap: 8px;
+
+  span {
+    background-image: url(../assets/arrow-right.svg);
+    width: 16px;
+    height: 14px;
+  }
+
+  &:hover span {
+    background-image: url(../assets/arrow-right-hover.svg);
+  }
+}
+
+  &>div {
+    grid-template-columns: repeat(4, 292px);
+  }
+
+  img {
+    height: 160px;
+  }
+
 }

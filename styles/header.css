@@ -12,10 +12,9 @@
     margin-inline: auto;
   }
 
-div:nth-child(3) {
-justify-self: end;
-}
-
+  div:nth-child(3) {
+    justify-self: end;
+  }
 }
 
 #secondary {
