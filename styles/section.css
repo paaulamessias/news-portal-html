@@ -15,7 +15,7 @@ section header {
       height: 16px;
     }
     
-   &:hover span {
+    &:hover span {
     background-image: url(../assets/arrow-right-hover.svg);
     }
 
@@ -64,7 +64,7 @@ section header {
 }
 
 #weekly {
-  
+
   &>div {
     grid-template-columns: repeat(4, 292px);
   }
@@ -84,7 +84,6 @@ section header {
 
     p {
       margin-top: 8px;
-      font-weight: 800;
     }
   }
 

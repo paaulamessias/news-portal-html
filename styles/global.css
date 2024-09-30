@@ -18,7 +18,7 @@
  --h3: 800 14px/140% var(--font-family);
  --text-span: 600 14px/140% var(--font-family);
  --text: 400 16px/140% var(--font-family);
- --text-sn: 400 14px/160% var(--font-family);
+ --text-sm: 400 14px/160% var(--font-family);
 }
 
 body {
@@ -59,7 +59,7 @@ main {
   display: inline-block;
   background-color: var(--brand-color-dark);
   padding: 4px 8px;
-  border-radius: 4px 8px;
+  border-radius: 4px;
   font: 500 10px/1.2 var(--font-family);
   text-transform: uppercase;
   letter-spacing: 0.04em;

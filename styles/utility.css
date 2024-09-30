@@ -11,6 +11,10 @@
   grid-template-columns: 1fr 1fr;
 }
 
+.gap-32 {
+  gap: 32px;
+}
+
 .gap-16 {
   gap: 16px;
 }
@@ -27,6 +31,6 @@
   font: var(--h3);
 }
 
-.text-sn {
+.text-sm {
   font: var(--text-sn);
 }
